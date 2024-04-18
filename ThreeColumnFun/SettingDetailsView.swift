@@ -3,6 +3,7 @@
 //  ThreeColumnFun
 //
 //  Created by mgouker on 4/18/24.
+// © 2023 by Gabriel Theodoropoulos
 //
 
 import Foundation
