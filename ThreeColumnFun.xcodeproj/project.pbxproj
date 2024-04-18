@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125CDC7C2BD0CE9700CC7A03 /* ThreeColumnFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDC7B2BD0CE9700CC7A03 /* ThreeColumnFunApp.swift */; };
+		125CDC7E2BD0CE9700CC7A03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDC7D2BD0CE9700CC7A03 /* ContentView.swift */; };
+		125CDC802BD0CE9A00CC7A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125CDC7F2BD0CE9A00CC7A03 /* Assets.xcassets */; };
+		125CDC832BD0CE9A00CC7A03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125CDC822BD0CE9A00CC7A03 /* Preview Assets.xcassets */; };
+		125CDC8E2BD0CE9B00CC7A03 /* ThreeColumnFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDC8D2BD0CE9B00CC7A03 /* ThreeColumnFunTests.swift */; };
+		125CDC982BD0CE9B00CC7A03 /* ThreeColumnFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDC972BD0CE9B00CC7A03 /* ThreeColumnFunUITests.swift */; };
+		125CDC9A2BD0CE9B00CC7A03 /* ThreeColumnFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDC992BD0CE9B00CC7A03 /* ThreeColumnFunUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		125CDC8A2BD0CE9B00CC7A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 125CDC702BD0CE9700CC7A03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 125CDC772BD0CE9700CC7A03;
+			remoteInfo = ThreeColumnFun;
+		};
+		125CDC942BD0CE9B00CC7A03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 125CDC702BD0CE9700CC7A03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 125CDC772BD0CE9700CC7A03;
+			remoteInfo = ThreeColumnFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		125CDC782BD0CE9700CC7A03 /* ThreeColumnFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeColumnFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		125CDC7B2BD0CE9700CC7A03 /* ThreeColumnFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeColumnFunApp.swift; sourceTree = "<group>"; };
+		125CDC7D2BD0CE9700CC7A03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		125CDC7F2BD0CE9A00CC7A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		125CDC822BD0CE9A00CC7A03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		125CDC842BD0CE9A00CC7A03 /* ThreeColumnFun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThreeColumnFun.entitlements; sourceTree = "<group>"; };
+		125CDC892BD0CE9B00CC7A03 /* ThreeColumnFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeColumnFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		125CDC8D2BD0CE9B00CC7A03 /* ThreeColumnFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeColumnFunTests.swift; sourceTree = "<group>"; };
+		125CDC932BD0CE9B00CC7A03 /* ThreeColumnFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeColumnFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		125CDC972BD0CE9B00CC7A03 /* ThreeColumnFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeColumnFunUITests.swift; sourceTree = "<group>"; };
+		125CDC992BD0CE9B00CC7A03 /* ThreeColumnFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeColumnFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		125CDC752BD0CE9700CC7A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125CDC862BD0CE9B00CC7A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125CDC902BD0CE9B00CC7A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125CDC6F2BD0CE9700CC7A03 = {
+			isa = PBXGroup;
+			children = (
+				125CDC7A2BD0CE9700CC7A03 /* ThreeColumnFun */,
+				125CDC8C2BD0CE9B00CC7A03 /* ThreeColumnFunTests */,
+				125CDC962BD0CE9B00CC7A03 /* ThreeColumnFunUITests */,
+				125CDC792BD0CE9700CC7A03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		125CDC792BD0CE9700CC7A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				125CDC782BD0CE9700CC7A03 /* ThreeColumnFun.app */,
+				125CDC892BD0CE9B00CC7A03 /* ThreeColumnFunTests.xctest */,
+				125CDC932BD0CE9B00CC7A03 /* ThreeColumnFunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		125CDC7A2BD0CE9700CC7A03 /* ThreeColumnFun */ = {
+			isa = PBXGroup;
+			children = (
+				125CDC7B2BD0CE9700CC7A03 /* ThreeColumnFunApp.swift */,
+				125CDC7D2BD0CE9700CC7A03 /* ContentView.swift */,
+				125CDC7F2BD0CE9A00CC7A03 /* Assets.xcassets */,
+				125CDC842BD0CE9A00CC7A03 /* ThreeColumnFun.entitlements */,
+				125CDC812BD0CE9A00CC7A03 /* Preview Content */,
+			);
+			path = ThreeColumnFun;
+			sourceTree = "<group>";
+		};
+		125CDC812BD0CE9A00CC7A03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				125CDC822BD0CE9A00CC7A03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		125CDC8C2BD0CE9B00CC7A03 /* ThreeColumnFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				125CDC8D2BD0CE9B00CC7A03 /* ThreeColumnFunTests.swift */,
+			);
+			path = ThreeColumnFunTests;
+			sourceTree = "<group>";
+		};
+		125CDC962BD0CE9B00CC7A03 /* ThreeColumnFunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				125CDC972BD0CE9B00CC7A03 /* ThreeColumnFunUITests.swift */,
+				125CDC992BD0CE9B00CC7A03 /* ThreeColumnFunUITestsLaunchTests.swift */,
+			);
+			path = ThreeColumnFunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		125CDC772BD0CE9700CC7A03 /* ThreeColumnFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125CDC9D2BD0CE9B00CC7A03 /* Build configuration list for PBXNativeTarget "ThreeColumnFun" */;
+			buildPhases = (
+				125CDC742BD0CE9700CC7A03 /* Sources */,
+				125CDC752BD0CE9700CC7A03 /* Frameworks */,
+				125CDC762BD0CE9700CC7A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeColumnFun;
+			productName = ThreeColumnFun;
+			productReference = 125CDC782BD0CE9700CC7A03 /* ThreeColumnFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		125CDC882BD0CE9B00CC7A03 /* ThreeColumnFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125CDCA02BD0CE9B00CC7A03 /* Build configuration list for PBXNativeTarget "ThreeColumnFunTests" */;
+			buildPhases = (
+				125CDC852BD0CE9B00CC7A03 /* Sources */,
+				125CDC862BD0CE9B00CC7A03 /* Frameworks */,
+				125CDC872BD0CE9B00CC7A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				125CDC8B2BD0CE9B00CC7A03 /* PBXTargetDependency */,
+			);
+			name = ThreeColumnFunTests;
+			productName = ThreeColumnFunTests;
+			productReference = 125CDC892BD0CE9B00CC7A03 /* ThreeColumnFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		125CDC922BD0CE9B00CC7A03 /* ThreeColumnFunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125CDCA32BD0CE9B00CC7A03 /* Build configuration list for PBXNativeTarget "ThreeColumnFunUITests" */;
+			buildPhases = (
+				125CDC8F2BD0CE9B00CC7A03 /* Sources */,
+				125CDC902BD0CE9B00CC7A03 /* Frameworks */,
+				125CDC912BD0CE9B00CC7A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				125CDC952BD0CE9B00CC7A03 /* PBXTargetDependency */,
+			);
+			name = ThreeColumnFunUITests;
+			productName = ThreeColumnFunUITests;
+			productReference = 125CDC932BD0CE9B00CC7A03 /* ThreeColumnFunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		125CDC702BD0CE9700CC7A03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					125CDC772BD0CE9700CC7A03 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					125CDC882BD0CE9B00CC7A03 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 125CDC772BD0CE9700CC7A03;
+					};
+					125CDC922BD0CE9B00CC7A03 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 125CDC772BD0CE9700CC7A03;
+					};
+				};
+			};
+			buildConfigurationList = 125CDC732BD0CE9700CC7A03 /* Build configuration list for PBXProject "ThreeColumnFun" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 125CDC6F2BD0CE9700CC7A03;
+			productRefGroup = 125CDC792BD0CE9700CC7A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				125CDC772BD0CE9700CC7A03 /* ThreeColumnFun */,
+				125CDC882BD0CE9B00CC7A03 /* ThreeColumnFunTests */,
+				125CDC922BD0CE9B00CC7A03 /* ThreeColumnFunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		125CDC762BD0CE9700CC7A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125CDC832BD0CE9A00CC7A03 /* Preview Assets.xcassets in Resources */,
+				125CDC802BD0CE9A00CC7A03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125CDC872BD0CE9B00CC7A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125CDC912BD0CE9B00CC7A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125CDC742BD0CE9700CC7A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125CDC7E2BD0CE9700CC7A03 /* ContentView.swift in Sources */,
+				125CDC7C2BD0CE9700CC7A03 /* ThreeColumnFunApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125CDC852BD0CE9B00CC7A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125CDC8E2BD0CE9B00CC7A03 /* ThreeColumnFunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125CDC8F2BD0CE9B00CC7A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125CDC982BD0CE9B00CC7A03 /* ThreeColumnFunUITests.swift in Sources */,
+				125CDC9A2BD0CE9B00CC7A03 /* ThreeColumnFunUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		125CDC8B2BD0CE9B00CC7A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 125CDC772BD0CE9700CC7A03 /* ThreeColumnFun */;
+			targetProxy = 125CDC8A2BD0CE9B00CC7A03 /* PBXContainerItemProxy */;
+		};
+		125CDC952BD0CE9B00CC7A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 125CDC772BD0CE9700CC7A03 /* ThreeColumnFun */;
+			targetProxy = 125CDC942BD0CE9B00CC7A03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		125CDC9B2BD0CE9B00CC7A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		125CDC9C2BD0CE9B00CC7A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		125CDC9E2BD0CE9B00CC7A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThreeColumnFun/ThreeColumnFun.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThreeColumnFun/Preview Content\"";
+				DEVELOPMENT_TEAM = L6M23LA5RP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cageylogic.ThreeColumnFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		125CDC9F2BD0CE9B00CC7A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThreeColumnFun/ThreeColumnFun.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThreeColumnFun/Preview Content\"";
+				DEVELOPMENT_TEAM = L6M23LA5RP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cageylogic.ThreeColumnFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		125CDCA12BD0CE9B00CC7A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6M23LA5RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cageylogic.ThreeColumnFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeColumnFun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThreeColumnFun";
+			};
+			name = Debug;
+		};
+		125CDCA22BD0CE9B00CC7A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6M23LA5RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cageylogic.ThreeColumnFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeColumnFun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThreeColumnFun";
+			};
+			name = Release;
+		};
+		125CDCA42BD0CE9B00CC7A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6M23LA5RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cageylogic.ThreeColumnFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ThreeColumnFun;
+			};
+			name = Debug;
+		};
+		125CDCA52BD0CE9B00CC7A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6M23LA5RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cageylogic.ThreeColumnFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ThreeColumnFun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125CDC732BD0CE9700CC7A03 /* Build configuration list for PBXProject "ThreeColumnFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125CDC9B2BD0CE9B00CC7A03 /* Debug */,
+				125CDC9C2BD0CE9B00CC7A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125CDC9D2BD0CE9B00CC7A03 /* Build configuration list for PBXNativeTarget "ThreeColumnFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125CDC9E2BD0CE9B00CC7A03 /* Debug */,
+				125CDC9F2BD0CE9B00CC7A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125CDCA02BD0CE9B00CC7A03 /* Build configuration list for PBXNativeTarget "ThreeColumnFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125CDCA12BD0CE9B00CC7A03 /* Debug */,
+				125CDCA22BD0CE9B00CC7A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125CDCA32BD0CE9B00CC7A03 /* Build configuration list for PBXNativeTarget "ThreeColumnFunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125CDCA42BD0CE9B00CC7A03 /* Debug */,
+				125CDCA52BD0CE9B00CC7A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 125CDC702BD0CE9700CC7A03 /* Project object */;
+}
