@@ -14,6 +14,13 @@
 		125CDC8E2BD0CE9B00CC7A03 /* ThreeColumnFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDC8D2BD0CE9B00CC7A03 /* ThreeColumnFunTests.swift */; };
 		125CDC982BD0CE9B00CC7A03 /* ThreeColumnFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDC972BD0CE9B00CC7A03 /* ThreeColumnFunUITests.swift */; };
 		125CDC9A2BD0CE9B00CC7A03 /* ThreeColumnFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDC992BD0CE9B00CC7A03 /* ThreeColumnFunUITestsLaunchTests.swift */; };
+		125CDCA72BD0CEEB00CC7A03 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDCA62BD0CEEB00CC7A03 /* SettingsModel.swift */; };
+		125CDCAB2BD0CF2B00CC7A03 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDCAA2BD0CF2B00CC7A03 /* Category.swift */; };
+		125CDCAD2BD0CF3E00CC7A03 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDCAC2BD0CF3E00CC7A03 /* Setting.swift */; };
+		125CDCAF2BD0CFA500CC7A03 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDCAE2BD0CFA500CC7A03 /* CategoriesModel.swift */; };
+		125CDCB12BD0D0AB00CC7A03 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDCB02BD0D0AB00CC7A03 /* Sidebar.swift */; };
+		125CDCB32BD0D20700CC7A03 /* SettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDCB22BD0D20700CC7A03 /* SettingsListView.swift */; };
+		125CDCB52BD0D28700CC7A03 /* SettingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CDCB42BD0D28700CC7A03 /* SettingDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		125CDC932BD0CE9B00CC7A03 /* ThreeColumnFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeColumnFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		125CDC972BD0CE9B00CC7A03 /* ThreeColumnFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeColumnFunUITests.swift; sourceTree = "<group>"; };
 		125CDC992BD0CE9B00CC7A03 /* ThreeColumnFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeColumnFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		125CDCA62BD0CEEB00CC7A03 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		125CDCAA2BD0CF2B00CC7A03 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		125CDCAC2BD0CF3E00CC7A03 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		125CDCAE2BD0CFA500CC7A03 /* CategoriesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		125CDCB02BD0D0AB00CC7A03 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		125CDCB22BD0D20700CC7A03 /* SettingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListView.swift; sourceTree = "<group>"; };
+		125CDCB42BD0D28700CC7A03 /* SettingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +109,18 @@
 		125CDC7A2BD0CE9700CC7A03 /* ThreeColumnFun */ = {
 			isa = PBXGroup;
 			children = (
+				125CDCAE2BD0CFA500CC7A03 /* CategoriesModel.swift */,
 				125CDC7B2BD0CE9700CC7A03 /* ThreeColumnFunApp.swift */,
 				125CDC7D2BD0CE9700CC7A03 /* ContentView.swift */,
 				125CDC7F2BD0CE9A00CC7A03 /* Assets.xcassets */,
 				125CDC842BD0CE9A00CC7A03 /* ThreeColumnFun.entitlements */,
 				125CDC812BD0CE9A00CC7A03 /* Preview Content */,
+				125CDCA62BD0CEEB00CC7A03 /* SettingsModel.swift */,
+				125CDCAA2BD0CF2B00CC7A03 /* Category.swift */,
+				125CDCAC2BD0CF3E00CC7A03 /* Setting.swift */,
+				125CDCB02BD0D0AB00CC7A03 /* Sidebar.swift */,
+				125CDCB22BD0D20700CC7A03 /* SettingsListView.swift */,
+				125CDCB42BD0D28700CC7A03 /* SettingDetailsView.swift */,
 			);
 			path = ThreeColumnFun;
 			sourceTree = "<group>";
@@ -259,7 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125CDCAB2BD0CF2B00CC7A03 /* Category.swift in Sources */,
+				125CDCB32BD0D20700CC7A03 /* SettingsListView.swift in Sources */,
+				125CDCAD2BD0CF3E00CC7A03 /* Setting.swift in Sources */,
+				125CDCA72BD0CEEB00CC7A03 /* SettingsModel.swift in Sources */,
+				125CDCAF2BD0CFA500CC7A03 /* CategoriesModel.swift in Sources */,
 				125CDC7E2BD0CE9700CC7A03 /* ContentView.swift in Sources */,
+				125CDCB52BD0D28700CC7A03 /* SettingDetailsView.swift in Sources */,
+				125CDCB12BD0D0AB00CC7A03 /* Sidebar.swift in Sources */,
 				125CDC7C2BD0CE9700CC7A03 /* ThreeColumnFunApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

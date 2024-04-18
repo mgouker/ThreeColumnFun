@@ -7,15 +7,29 @@
 
 import SwiftUI
 
+/// The main view of the ThreeColumnFun application.
 struct ContentView: View {
+    /// The body of the view, defining its UI.
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            // The first column is the sidebar.
+            Sidebar()
+ 
+            // Initial content of the second column.
+            EmptyView()
+ 
+            // Initial content for the third column.
+            Text("Select a category of settings in the sidebar.")
         }
-        .padding()
+        .toolbar {
+            ToolbarItem(placement: ToolbarItemPlacement.navigation) {
+                Button {
+                    // Action for toggling the sidebar.
+                } label: {
+                    Label("Toggle sidebar", systemImage: "sidebar.left")
+                }
+            }
+        }
     }
 }
 
